@@ -15,7 +15,9 @@
 		'PERFORMANCE' => 'Tiempos',
 		'PERFORMANCE_DESCRIPTION' => 'El tiempo que toma una aplicación es vital para obtener clientes. Uno de mis pilares fundamentales es bajar los tiempos de carga y procesamiento.',
 		'CREATIVE_SOLUTION' => 'Soluciones Creativas',
-		'CREATIVE_SOLUTION_DESCRIPTION' => 'Nunca hay una única solución para un problema y no es fácil hallarlas. La experiencia y la personalidad creativa me da la posibilidad de pensar una amplia gama de soluciones a evaluar.'
+		'CREATIVE_SOLUTION_DESCRIPTION' => 'No hay una única solución a un problema pero es difícil hallarlas. Gracias a a experiencia y creativad puedo obtener una diversa variedad de opciones.',
+		'SUPPORT' => 'Soporte y Mantenimiento',
+		'SUPPORT_DESCRIPTION' => 'El trabajo no culmina con la entrega del producto. Si se necesita mantenimiento, el mismo será brindado con la misma seriedad que el propio desarrollo.'
 	);
 
 	$english = array(
@@ -33,7 +35,9 @@
 		'PERFORMANCE' => 'Performance',
 		'PERFORMANCE_DESCRIPTION' => 'Time in application is so important to get new customers. I focus on reducing the loading and processing times.',
 		'CREATIVE_SOLUTION' => 'Creative Solutions',
-		'CREATIVE_SOLUTION_DESCRIPTION' => 'There not exists only one solution for a problem. The experience and creative personality allows me to think many solutions to evaluate and choose the best one.'
+		'CREATIVE_SOLUTION_DESCRIPTION' => 'There not exists only one solution for a problem. The experience and creative personality allows me to think many solutions to evaluate and choose the best one.',
+		'SUPPORT' => 'Maintenance and Support',
+		'SUPPORT_DESCRIPTION' => 'My job does not finish when the product is delivered. If client needs maintenance it must be taken as seriously as the development.'
 	);
 
 	$languages = array(

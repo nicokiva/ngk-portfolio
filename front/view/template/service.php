@@ -33,8 +33,8 @@
             <i class="fa fa-cloud"></i>
           </div>
           <div class="service-info">
-            <h3>Awesome Support</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+            <h3><?= $textProvider->get('SUPPORT'); ?></h3>
+            <p><?= $textProvider->get('SUPPORT_DESCRIPTION'); ?></p>
           </div>
         </div>
         <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="650ms">
