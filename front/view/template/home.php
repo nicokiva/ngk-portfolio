@@ -48,9 +48,11 @@
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">                 
           <li class="scroll active"><a href="#home"><?= $textProvider->get('HOME'); ?></a></li>
-          <li class="scroll"><a href="#services"><?= $textProvider->get('SERVICE'); ?></a></li> 
-          <li class="scroll"><a href="#about-us"><?= $textProvider->get('ME'); ?></a></li>                     
-          <li class="scroll"><a href="#portfolio"><?= $textProvider->get('PORTFOLIO'); ?></a></li>
+          <li class="scroll"><a href="#about-us"><?= $textProvider->get('ME'); ?></a></li>
+          <li class="scroll"><a href="#services"><?= $textProvider->get('TECHNOLOGIES'); ?></a></li> 
+          <li class="scroll"><a href="#portfolio"><?= $textProvider->get('STUDIES'); ?></a></li>
+          <li class="scroll"><a href="#portfolio"><?= $textProvider->get('CAREER'); ?></a></li>
+          <li class="scroll"><a href="#portfolio"><?= $textProvider->get('MY_JOB'); ?></a></li>
           <li class="scroll"><a href="#contact"><?= $textProvider->get('CONTACT'); ?></a></li>
         </ul>
       </div>

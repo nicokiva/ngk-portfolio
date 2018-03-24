@@ -80,7 +80,7 @@
 	 		';
 
 
-	 		$this->show('../../front/view/' . $this->_controllerName .'/' . $view . '.php');
+	 		$this->show('../../front/view/' . $this->_controllerName .'/' . $view . '.php', $data);
 
 	 		if (array_key_exists('includeFooter', $displayOptions) && $displayOptions['includeFooter'] == true) {
 	 			$this->showFooter();
@@ -95,7 +95,7 @@
 	 		$this->show('../../front/view/general/footer.php');
 	 	}
 
-	 	private function show($file) {
+	 	private function show($file, $data = null) {
 	 		if (!file_exists($file)) {
 	 			throw new Exception('View: ' . $file . ' not exists.');
 	 		}
@@ -103,6 +103,7 @@
 	 		$resourceLoader = $this->_resourceLoader;
 	 		$templateLoader = $this->_templateLoader;
 	 		$textProvider = $this->_textProvider;
+
 	 		include($file);
 	 	}
 

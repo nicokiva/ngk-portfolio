@@ -13,6 +13,11 @@
 		}
 		
 		public function index($data) {
+			$d1 = new DateTime();
+			$d2 = new DateTime('1988-07-17');
+			$diff = $d2->diff($d1);
+
+			$data['age'] = $diff->y;
 			return $this->showView(null, $data);
 		}
 

@@ -21,13 +21,14 @@
 			$this->_textProvider = $textProvider;
 		}
 
-		function load($filename) {
+		function load($filename, $data = null) {
 			if (empty($filename)) {
 				throw new Exception('Missing filename');
 			}
 
 			$textProvider = $this->_textProvider;
 			$resourceLoader = $this->_resourceLoader;
+			
 			require $this->_template_location . '/' . $filename;
 		}
 

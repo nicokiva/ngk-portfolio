@@ -20,12 +20,26 @@
 			}
 		}
 
-		function get($key) {
+		function get($key, $params = null) {
 			if (!array_key_exists($key, $this->_texts)) {
-				throw new Exception('Invalid key');
+				echo '<pre>';
+				throw new Exception('Invalid key "' . $key . '"');
+				echo '</pre>';
 			}
 
-			return $this->_texts[$key];
+			if (is_null($params)) {
+				$params = array();
+			}
+
+			$t = $this->_texts[$key];
+
+			if (count($params) > 0) {
+				foreach($params as $pKey => $pValue) {
+					$t = str_replace('{{' . $pKey . '}}', $pValue, $t);
+				}	
+			}
+
+			return $t;
 		}
 
 	}

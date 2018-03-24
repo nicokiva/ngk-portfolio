@@ -13,6 +13,7 @@
 		<link rel="stylesheet" type="text/css" href="<?= $resourceLoader->resolvePath('WEB_RESOURCE_CSS', 'main.css'); ?>" />
 		<link rel="stylesheet"  type="text/css" href="<?= $resourceLoader->resolvePath('WEB_RESOURCE_CSS', '/presets/preset1.css'); ?>" id="css-preset" />
 		<link rel="stylesheet" type="text/css" href="<?= $resourceLoader->resolvePath('WEB_RESOURCE_CSS', 'responsive.css'); ?>" />
+		<link rel="stylesheet" type="text/css" href="<?= $resourceLoader->resolvePath('WEB_RESOURCE_CSS', 'custom.css'); ?>" />
 
 
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
