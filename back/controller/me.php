@@ -2,7 +2,7 @@
 	class meController extends controller {
 		private $_mailer;
 
-		public function meController($configuration, $resourcesLoader, $templateLoader, $textProvider, $external) {
+		public function __construct($configuration, $resourcesLoader, $templateLoader, $textProvider, $external) {
 			if (!array_key_exists('mailer', $external) || $external['mailer'] == null) {
 				throw new Exception('Missing Mailer');
 			}

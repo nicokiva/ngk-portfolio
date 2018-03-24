@@ -7,7 +7,7 @@
 		private $_response;
 
 
-		public function application($configuration, $resourcesLoader, $templateLoader, $textProvider) {
+		public function __construct($configuration, $resourcesLoader, $templateLoader, $textProvider) {
 			$this->_configuration = $configuration;
 			$this->_resourcesLoader = $resourcesLoader;
 			$this->_templateLoader = $templateLoader;

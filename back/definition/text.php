@@ -21,7 +21,7 @@
 	);
 
 	$english = array(
-		'NAME' => 'Nick Gabriel <span>Kivatinetz</span>',
+		'NAME' => 'Nicolas Gabriel <span>Kivatinetz</span>',
 		'OCCUPATION' => 'Systems engineer - Software engineer - Web / destkop / mobile developer',
 		'START_NOW' => 'Start Now',
 		'CODING_PASSION' => 'Coding is my <span>Passion</span>',

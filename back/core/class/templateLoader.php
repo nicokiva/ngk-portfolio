@@ -7,7 +7,7 @@
 		private $_resourceLoader;
 		private $_textProvider;
 
-		function templateLoader($documentRoot, $resourceLoader, $textProvider) {
+		function __construct($documentRoot, $resourceLoader, $textProvider) {
 			$this->_template_location = $documentRoot . '/front/view/template';
 
 			if ($resourceLoader == null) {

@@ -3,7 +3,7 @@
 	class textProvider {
 		private $_texts = array();
 
-		function textProvider($documentRoot, $lang) {
+		function __construct($documentRoot, $lang) {
 			if ($documentRoot == null) {
 				throw new Exception('Document Root Missing');
 			}
