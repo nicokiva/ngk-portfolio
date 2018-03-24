@@ -37,6 +37,7 @@
 		'CONTACT' => 'Contact',
 		'STUDIES' => 'Studies',
 		'CAREER' => 'Jobs',
+		'MY_HISTORY' => 'HISTORY',
 		'MY_JOB' => 'What I\'ve done so far',
 		'SERVICE_SUBTITLE' => 'High quality web, mobile and desktop development. Always focusing peformance, clarity and code reusability.',
 		'PERFORMANCE' => 'Performance',

@@ -5,3 +5,8 @@
 .racing-club {
 	color: lightblue;
 }
+
+.navbar-brand img {
+	margin-top: 50%;
+    transform: translateY(-25%);
+}
